@@ -9,9 +9,11 @@ This website is a lightweight boilerplate to spin up a documentation website wit
 
 ## Quick start
 
-If you want to get started right away with this boilerplate, either clone the [GitHub repository](https://github.com/markdoc/next.js-starter) or deploy a version of this site to Vercel by clicking the button below.
+If you want to get started right away with this boilerplate, either clone the [GitHub repository](https://github.com/markdoc/next.js-starter) or deploy a version of this site to Vercel or Replit by clicking the buttons below.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/markdoc/next.js-starter)
+
+[![Run on Repl.it](https://repl.it/badge/github/markdoc/next.js-starter)](https://repl.it/github/markdoc/next.js-starter)
 
 ## Get started from scratch
 
