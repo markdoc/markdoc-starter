@@ -35,3 +35,7 @@ The quickest way to deploy your own version of this boilerplate is by deploying 
 ### Deploy to Netlify
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
+
+### Run on Replit
+
+[![Run on Repl.it](https://repl.it/badge/github/markdoc/next.js-starter)](https://repl.it/github/markdoc/next.js-starter)
