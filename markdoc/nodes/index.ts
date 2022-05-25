@@ -1,2 +1,3 @@
 /* Use this file to export your markdoc nodes */
-export default {};
+export * from './fence.markdoc';
+export * from './heading.markdoc';

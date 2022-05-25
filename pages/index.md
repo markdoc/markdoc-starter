@@ -3,16 +3,40 @@ title: Get started with Markdoc
 description: How to get started with Markdoc
 ---
 
-# Markdoc
+# Full Next.js example
 
-This website is a lightweight boilerplate to spin up a documentation website with Markdoc.
+This is a full-featured boilerplate for a creating a documentation website using Markdoc and Next.js.
 
-## Quick start
+## Setup
 
-If you want to get started right away with this boilerplate, either clone the [GitHub repository](https://github.com/markdoc/next.js-starter) or deploy a version of this site to Vercel by clicking the button below.
+First, clone this repo and install the dependencies required:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `index.md`. The page auto-updates as you edit the file.
+
+## Deploy
+
+The quickest way to deploy your own version of this boilerplate is by deploying it with [Vercel](https://vercel.com) or [Netlify](https://www.netlify.com/) by clicking one of the buttons below.
+
+### Deploy with Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/markdoc/next.js-starter)
 
-## Get started from scratch
+### Deploy to Netlify
 
-If you'd prefer to start from scratch, feel free to check out the [official repository](https://github.com/markdoc/markdoc) and [documentation site](https://markdoc.io/docs/getting-started).
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markdoc/next.js-starter)
