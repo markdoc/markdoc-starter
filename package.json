@@ -1,22 +1,21 @@
 {
-  "name": "simple-nextjs-starter",
-  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "@markdoc/markdoc": "*",
-    "@markdoc/next.js": "*",
-    "next": "12.1.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "@markdoc/markdoc": "latest",
+    "@markdoc/next.js": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4"
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
   }
 }

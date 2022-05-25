@@ -20,19 +20,20 @@ article {
   padding: 4em 2em;
 }
 
+p {
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+
 h1 {
   font-size: 40px;
 }
 
+h2 {
+  margin: 1.5em 0;
+}
+
 a {
   color: rgba(75, 85, 99, 1);
-}
-
-h2 {
-  margin: 2em 0;
-}
-
-p {
-  line-height: 1.5em;
-  font-weight: 300;
 }
