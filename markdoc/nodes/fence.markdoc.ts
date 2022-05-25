@@ -1,4 +1,4 @@
-import {CodeBlock} from '../../components/CodeBlock';
+import {CodeBlock} from '../../components';
 
 export const fence = {
   render: CodeBlock,

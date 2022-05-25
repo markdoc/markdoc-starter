@@ -1,2 +1,2 @@
 /* Use this file to export your markdoc tags */
-export default {};
+export * from './callout.markdoc';
