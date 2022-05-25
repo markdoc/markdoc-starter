@@ -39,7 +39,7 @@ export function SideNav() {
             height: calc(100vh - var(--top-nav-height));
             flex: 0 0 auto;
             overflow-y: auto;
-            padding: 2rem;
+            padding: 2.5rem 2rem 2rem;
             border-right: 1px solid var(--border-color);
           }
           span {
