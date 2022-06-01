@@ -1,5 +1,4 @@
-/* global Prism */
-import 'prismjs';
+import Prism from 'prismjs';
 
 import * as React from 'react';
 
