@@ -12,6 +12,7 @@ import 'prismjs/themes/prism.css';
 import '../public/globals.css'
 
 import type { AppProps } from 'next/app'
+import type { MarkdocNextJsPageProps } from '@markdoc/next.js'
 
 const TITLE = 'Markdoc';
 const DESCRIPTION = 'A powerful, flexible, Markdown-based authoring framework';
@@ -39,7 +40,9 @@ function collectHeadings(node, sections = []) {
   return sections;
 }
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+export type MyAppProps = MarkdocNextJsPageProps
+
+export default function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
   const { markdoc } = pageProps;
 
   let title = TITLE;
