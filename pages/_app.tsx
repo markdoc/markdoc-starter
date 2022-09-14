@@ -40,9 +40,7 @@ function collectHeadings(node, sections = []) {
   return sections;
 }
 
-export interface MyAppProps {
-  markdoc?: MarkdocNextJsPageProps['markdoc']
-}
+export type MyAppProps = MarkdocNextJsPageProps
 
 export default function MyApp({ Component, pageProps }: AppProps<MyAppProps>) {
   const { markdoc } = pageProps;
