@@ -54,11 +54,11 @@ export function TableOfContents({toc}) {
             list-style-type: none;
             margin: 0 0 1rem;
           }
-          :global(.toc li a) {
+          li :global(a) {
             text-decoration: none;
           }
-          :global(.toc li a:hover),
-          :global(.toc li.active a) {
+          li :global(a:hover),
+          li.active :global(a) {
             text-decoration: underline;
           }
           li.padded {
