@@ -27,8 +27,8 @@ export function TableOfContents({toc}) {
                 .filter(Boolean)
                 .join(' ')}
             >
-              <Link href={href} passHref>
-                <a>{item.title}</a>
+              <Link href={href}>
+                {item.title}
               </Link>
             </li>
           );
@@ -54,11 +54,11 @@ export function TableOfContents({toc}) {
             list-style-type: none;
             margin: 0 0 1rem;
           }
-          li a {
+          :global(.toc li a) {
             text-decoration: none;
           }
-          li a:hover,
-          li.active a {
+          :global(.toc li a:hover),
+          :global(.toc li.active a) {
             text-decoration: underline;
           }
           li.padded {

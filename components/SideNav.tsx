@@ -22,8 +22,8 @@ export function SideNav() {
               const active = router.pathname === link.href;
               return (
                 <li key={link.href} className={active ? 'active' : ''}>
-                  <Link {...link}>
-                    <a href={link.href}>{link.children}</a>
+                  <Link href={link.href}>
+                    {link.children}
                   </Link>
                 </li>
               );
@@ -54,11 +54,11 @@ export function SideNav() {
             list-style: none;
             margin: 0;
           }
-          li a {
+         :global(.sidenav li a) {
             text-decoration: none;
           }
-          li a:hover,
-          li.active > a {
+          :global(.sidenav li a:hover),
+          :global(.sidenav li.active > a) {
             text-decoration: underline;
           }
         `}
