@@ -22,9 +22,7 @@ export function SideNav() {
               const active = router.pathname === link.href;
               return (
                 <li key={link.href} className={active ? 'active' : ''}>
-                  <Link {...link}>
-                    <a href={link.href}>{link.children}</a>
-                  </Link>
+                  <Link {...link} />
                 </li>
               );
             })}
@@ -54,11 +52,11 @@ export function SideNav() {
             list-style: none;
             margin: 0;
           }
-          li a {
+          li :global(a) {
             text-decoration: none;
           }
-          li a:hover,
-          li.active > a {
+          li :global(a:hover),
+          li.active :global(a) {
             text-decoration: underline;
           }
         `}
